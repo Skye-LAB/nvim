@@ -45,6 +45,9 @@ return packer.startup(function(use)
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
   use "numToStr/Comment.nvim" -- Easily comment stuff
+  use 'nvim-lualine/lualine.nvim'
+  use "akinsho/toggleterm.nvim"
+  use "ahmedkhalf/project.nvim"
 
   -- nvimtree
   use 'kyazdani42/nvim-web-devicons'
@@ -53,7 +56,6 @@ return packer.startup(function(use)
   -- bufferline
   use "akinsho/bufferline.nvim"
   use "moll/vim-bbye"
-
 
   -- colorschemes
   use "lunarvim/onedarker.nvim"

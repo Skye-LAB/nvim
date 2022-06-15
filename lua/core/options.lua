@@ -3,6 +3,8 @@ local options = {
   fileencoding = "utf-8",
   completeopt = { "menuone", "noselect" },
   termguicolors = true,
+
+  showmode= false,
   wrap = false,
 
   cmdheight = 2,
