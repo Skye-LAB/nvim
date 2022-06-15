@@ -45,8 +45,14 @@ return packer.startup(function(use)
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
   use "numToStr/Comment.nvim" -- Easily comment stuff
+
+  -- nvimtree
   use 'kyazdani42/nvim-web-devicons'
   use 'kyazdani42/nvim-tree.lua'
+
+  -- bufferline
+  use "akinsho/bufferline.nvim"
+  use "moll/vim-bbye"
 
 
   -- colorschemes
@@ -70,6 +76,7 @@ return packer.startup(function(use)
   -- LSP
   use "neovim/nvim-lspconfig" -- enable LSP
   use "williamboman/nvim-lsp-installer" -- simple to use language server installer
+  use "jose-elias-alvarez/null-ls.nvim" -- for formatters and linters
 
   -- telescope
   use "nvim-telescope/telescope.nvim"
