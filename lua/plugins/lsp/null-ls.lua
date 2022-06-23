@@ -19,5 +19,9 @@ null_ls.setup({
 
     -- lua
 		formatting.stylua,
+
+    -- php
+    diagnostics.php,
+    -- formatting.phpcbf.with({ prefer_local = "vendor/bin" }),
 	},
 })

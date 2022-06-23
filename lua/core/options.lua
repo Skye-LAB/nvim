@@ -5,7 +5,7 @@ local options = {
   termguicolors = true,
 
   showmode= false,
-  wrap = false,
+  -- wrap = false,
 
   cmdheight = 2,
   pumheight = 10,

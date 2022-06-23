@@ -49,6 +49,11 @@ return packer.startup(function(use)
 	use("ahmedkhalf/project.nvim")
 	use("folke/which-key.nvim")
 	use("lukas-reineke/indent-blankline.nvim")
+	use("lewis6991/impatient.nvim")
+
+	use({ "folke/todo-comments.nvim", event = "BufRead", config = function ()
+	 require("todo-comments").setup()
+	end })
 
 	-- nvimtree
 	use("kyazdani42/nvim-web-devicons")

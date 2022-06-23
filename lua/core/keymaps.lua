@@ -25,9 +25,6 @@ keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 keymap("n", "<S-l>", ":bnext<CR>", opts)
 keymap("n", "<S-h>", ":bprevious<CR>", opts)
 
--- buffer delete
-keymap("n", "<leader>x", ":Bdelete<CR>", opts)
-
 -- INSERT
 -- better esc
 keymap("i", "jk", "<ESC>", opts)
